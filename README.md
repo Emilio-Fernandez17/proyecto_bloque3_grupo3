@@ -38,6 +38,8 @@ Implementa Bootstrap para garantizar la accesibilidad y el buen aspecto en cualq
 👥 Equipo y Autores
 Este proyecto ha sido desarrollado en el marco de nuestra asignatura de diseño web:
 
+¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
+
 <div align="center">
     Antonio Raño: 🎸 [ARano97 GitHub]
 </div>
@@ -47,6 +49,3 @@ Este proyecto ha sido desarrollado en el marco de nuestra asignatura de diseño 
 <div align="center">
     Unai Muñoz: 🎤 [unaimlarios GitHub]
 </div>
-
-
-¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
