@@ -1,6 +1,5 @@
-🎸 Rock Out Majuelo: Venta de Entradas para Concierto
-
 <div align="center">
+  🎸 Rock Out Majuelo: Venta de Entradas para Concierto
   <img src="Imagenes/rockReadMe2.jpg" alt="IES Majuelo Rock Concert"/>
 </div>
 
