@@ -41,10 +41,6 @@ Emilio Fernandez: 🥁 [Emilio-Fernandez17 GitHub]
 
 Unai Muñoz: 🎤 [unaimlarios GitHub]
 
-(Nota: Sustituye [Nombre's GitHub] por los enlaces reales a los perfiles de GitHub de cada compañero para hacer el README completamente interactivo.)
-
-
-
-
+![IES Majuelo Rock Concert](Imagenes/RockReadMe.png)
 
 ¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
