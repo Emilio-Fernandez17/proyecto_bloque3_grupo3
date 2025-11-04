@@ -1,5 +1,9 @@
 🎸 Rock Out Majuelo: Venta de Entradas para Concierto
 
+<div align="center">
+  <img src="Imagenes/rockReadMe2.jpg" alt="IES Majuelo Rock Concert" width="800"/>
+</div>
+
 🔥 ¡Prepárate para el Ruido!
 ¡Bienvenido al repositorio de Rock Out Majuelo, tu portal de venta de entradas para el concierto de rock más electrizante del año! 🤘 Este proyecto es un ejercicio de diseño web centrado en la experiencia de usuario y la potencia de Bootstrap.
 
@@ -40,7 +44,5 @@ Antonio Raño: 🎸 [ARano97 GitHub]
 Emilio Fernandez: 🥁 [Emilio-Fernandez17 GitHub]
 
 Unai Muñoz: 🎤 [unaimlarios GitHub]
-
-![IES Majuelo Rock Concert](Imagenes/rockReadMe2.jpg)
 
 ¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
