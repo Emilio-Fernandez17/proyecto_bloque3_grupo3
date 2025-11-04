@@ -1,8 +1,8 @@
 <div align="center">
   🎸 Rock Out Majuelo: Venta de Entradas para Concierto
   <img src="Imagenes/rockReadMe2.jpg" alt="IES Majuelo Rock Concert"/>
-  🔥 ¡Prepárate para el Ruido!
-
+  
+🔥 ¡Prepárate para el Ruido!
 ¡Bienvenido al repositorio de Rock Out Majuelo, tu portal de venta de entradas para el concierto de rock más electrizante del año! 
 
 🤘 Este proyecto es un ejercicio de diseño web centrado en la experiencia de usuario y la potencia de Bootstrap.
