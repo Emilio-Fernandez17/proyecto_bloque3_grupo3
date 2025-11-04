@@ -41,7 +41,6 @@ Emilio Fernandez: 🥁 [Emilio-Fernandez17 GitHub]
 
 Unai Muñoz: 🎤 [unaimlarios GitHub]
 
-![IES Majuelo Rock Concert](Imagenes/rockReadMe.jpg)
-<img src="Imagenes/RockReadMe.png" alt="IES Majuelo Rock Concert" width="500"/>
+![IES Majuelo Rock Concert](Imagenes/rockReadMe2.jpg)
 
 ¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
