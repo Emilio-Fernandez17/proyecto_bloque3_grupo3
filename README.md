@@ -47,6 +47,5 @@ Este proyecto ha sido desarrollado en el marco de nuestra asignatura de diseño 
 <div align="center">
     Unai Muñoz: 🎤 [unaimlarios GitHub]
 </div>
-<div align="center">
-    ¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
-</div>
+
+¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
