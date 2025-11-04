@@ -40,10 +40,13 @@ Este proyecto ha sido desarrollado en el marco de nuestra asignatura de diseño 
 
 <div align="center">
     Antonio Raño: 🎸 [ARano97 GitHub]
-
+</div>
+<div align="center">
     Emilio Fernandez: 🥁 [Emilio-Fernandez17 GitHub]
-
+</div>
+<div align="center">
     Unai Muñoz: 🎤 [unaimlarios GitHub]
-
+</div>
+<div align="center">
     ¡Esperamos que te guste nuestro trabajo! Si tienes sugerencias, ¡abre un issue!
 </div>
