@@ -1,3 +1,59 @@
 body {
-    background-color: black;
-}
+
+            background-color: #f8f9fa;
+            padding: 20px ;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        .form-container {
+
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, hsl(0, 100%, 50%) 0%, #7c0505 100%);
+            border: none;
+            padding: 10px 30px;
+        }
+
+        .concert-info {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .required:after {
+            content: " *";
+            color: red;
+        }
+
+        .cartel {
+            background-image: url('Imagenes/ImagenFondo.jpg');
+
+        }
