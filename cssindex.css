@@ -1,59 +1,70 @@
+/* Estilos Generales */
 body {
+    background-color: #f8f9fa; /* Fondo claro de Bootstrap */
+    padding: 20px;
+}
 
-            background-color: #f8f9fa;
-            padding: 20px ;
-        }
+/* ------------------------------------- */
+/* Estilos Glassmorphism */
+/* ------------------------------------- */
 
-        .header {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            color: white;
-            padding: 30px;
-            margin-bottom: 30px;
+/* Tarjetas de Encabezado de Información (Fecha, Lugar, Artistas) */
+.concert-info {
+    /* Estilos Glassmorphism */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    /* Color de texto principal */
+    color: white; 
+    padding: 30px;
+    margin-bottom: 30px;
+}
 
-        }
+/* Ajuste de color: Asegura que los H3 dentro de concert-info sean blancos (sobrescribe text-danger) */
+.concert-info h3 {
+    color: white !important;
+}
 
-        .section {
+/* Tarjetas de Noticias (También con Glassmorphism) */
+.section {
+    /* Estilos Glassmorphism */
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    /* Color de texto principal */
+    color: white; 
+    padding: 30px;
+    margin-bottom: 30px;
+}
 
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            color: white;
-            padding: 30px;
-            margin-bottom: 30px;
-        }
+/* ------------------------------------- */
+/* Estilos Específicos */
+/* ------------------------------------- */
 
-        .btn-primary {
-            background: linear-gradient(135deg, hsl(0, 100%, 50%) 0%, #7c0505 100%);
-            border: none;
-            padding: 10px 30px;
-        }
+/* Botón Principal (Redefinición de .btn-primary) */
+.btn-primary {
+    background: linear-gradient(135deg, hsl(0, 100%, 50%) 0%, #7c0505 100%);
+    border: none;
+    padding: 10px 30px;
+    color: white; /* Asegura que el texto del botón sea blanco */
+}
 
-        .concert-info {
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            color: white;
-            padding: 30px;
-            margin-bottom: 30px;
-        }
+/* Sección Hero (con Imagen de Fondo) */
+.cartel {
+    background-image: url('Imagenes/ImagenFondo.jpg');
+    background-size: cover; /* La imagen cubre toda la sección */
+    background-position: center; /* Centra la imagen */
+    min-height: 50vh; /* Da una altura mínima para ver la imagen */
+}
 
-        .required:after {
-            content: " *";
-            color: red;
-        }
-
-        .cartel {
-            background-image: url('Imagenes/ImagenFondo.jpg');
-
-        }
+/* Otros estilos (probablemente para un formulario en cuestionario.html) */
+.required:after {
+    content: " *";
+    color: red;
+}
