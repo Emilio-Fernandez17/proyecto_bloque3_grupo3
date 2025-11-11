@@ -4,10 +4,6 @@ body {
     padding: 20px;
 }
 
-/* ------------------------------------- */
-/* Estilos Glassmorphism */
-/* ------------------------------------- */
-
 /* Tarjetas de Encabezado de Información (Fecha, Lugar, Artistas) */
 .concert-info {
     /* Estilos Glassmorphism */
@@ -42,10 +38,6 @@ body {
     padding: 30px;
     margin-bottom: 30px;
 }
-
-/* ------------------------------------- */
-/* Estilos Específicos */
-/* ------------------------------------- */
 
 /* Botón Principal (Redefinición de .btn-primary) */
 .btn-primary {
