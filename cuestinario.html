@@ -12,17 +12,17 @@
     <div class="container ">
         <div class="header text-center ">
             <h1>SOLICITUD DE ENTRADAS</h1>
-            <p class="lead">ROCK OUT MAJUELO - 15 de Diciembre</p>
+            <p class="lead">ROCK OUT MAJUELO - 1, 2 y 3 de Agosto de 2026</p>
         </div>
         
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="concert-info">
                     <h4>Información del Concierto</h4>
-                    <p><strong>Artistas:</strong> The Rock Band, DJ Electron, Maria Soul</p>
-                    <p><strong>Fecha:</strong> 15 de Diciembre, 2025</p>
-                    <p><strong>Lugar:</strong> Estadio La Cartuja, Sevilla</p>
-                    <p><strong>Hora:</strong> 19:00 - 02:00</p>
+                    <p><strong>Artistas:</strong> Metallica, Pantera y Megadeth</p>
+                    <p><strong>Fechas:</strong> 1, 2 y 3 de Agosto de 2026</p>
+                    <p><strong>Lugar:</strong> Instituto IES Majuelo - Gines - Sevilla</p>
+                    <p><strong>Hora:</strong> 19:00 - 02:00 (Cada día)</p>
                 </div>
                 
                 <div class="form-container">
@@ -101,6 +101,19 @@
                                 <option>VIP - $100</option>
                                 <option>Platinum - $150</option>
                                 <option>Backstage - $200</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Por favor, selecciona un tipo de entrada.
+                            </div>
+                        </div>
+
+                         <div class="col-md-6">
+                            <label for="inputTipoEntrada" class="form-label required">Fecha de Entrada</label>
+                            <select id="inputTipoEntrada" class="form-select" required>
+                                <option value="" selected disabled>Selecciona...</option>
+                                <option>1 de Agosto</option>
+                                <option>2 de Agosto</option>
+                                <option>3 de Agosto</option>
                             </select>
                             <div class="invalid-feedback">
                                 Por favor, selecciona un tipo de entrada.
@@ -195,6 +208,6 @@
     </div>
 
     
-    <script src="validacion.js"></script>
+    <script src="JavaScript/validacion.js"></script>
 </body>
 </html>
