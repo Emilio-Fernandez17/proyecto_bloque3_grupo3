@@ -5,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Out Majuelo - ¡La Experiencia del Rock!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxMxD2scQbITxI" crossorigin="anonymous"
-        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="/css/cssindex.css">
 </head>
 
@@ -26,10 +23,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Más...</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="artistas.html">Artistas</a></li>
@@ -46,35 +43,33 @@
     </nav>
 
     <div class="container-fluid p-0">
-        <div class="d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center py-4">
             <img src="/images/tituloindex.png" alt="Rock Out Majuelo" class="header-image">
         </div>
     </div>
 
-    <!-- Sección Hero con clase cartel para aplicar la imagen de fondo -->
-    <section id="hero" class="cartel d-flex align-items-center text-white text-center">
+    <section id="hero" class="d-flex align-items-center text-white text-center">
         <div class="container">
-            <a href="cuestionario.html" class="btn btn-primary btn-lg text-uppercase fw-bold mt-5">¡Compra tus Tickets Ahora!</a>
+            <a href="cuestionario.html" class="btn btn-danger btn-lg text-uppercase fw-bold mt-5">¡Compra tus Tickets Ahora!</a>
         </div>
     </section>
 
     <div class="container my-5">
         <div class="row text-center">
-            <!-- Aplicar clase concert-info a las tarjetas de información -->
             <div class="col-lg-4 mb-4">
-                <div class="p-4 border rounded shadow-sm h-100">
+                <div class="p-4 border rounded shadow-sm h-100 info-card">
                     <h3 class="text-danger">Fecha</h3>
-                    <p class="lead">1, 2 y 3 de Agosto, 2025</p>
+                    <p class="lead">1, 2 y 3 de Agosto, 2026</p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="p-4 border rounded shadow-sm h-100">
+                <div class="p-4 border rounded shadow-sm h-100 info-card">
                     <h3 class="text-danger">Lugar</h3>
                     <p class="lead">Instituto IES Majuelo - Gines - Sevilla</p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="p-4 border rounded shadow-sm h-100">
+                <div class="p-4 border rounded shadow-sm h-100 info-card">
                     <h3 class="text-danger">Artistas</h3>
                     <p class="lead">Tres Artistas en 3 diferentes escenarios</p>
                 </div>
@@ -84,27 +79,27 @@
 
     <hr>
 
-    <section id="noticias" class="py-5 bg-light">
+    <section id="noticias" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5 text-uppercase fw-bold text-white">Últimas Noticias</h2>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
+                    <div class="card h-100 news-card">
                         <div class="card-body">
                             <h5 class="card-title text-danger">Nuevo artista del Cartel Revelado</h5>
-                            <p class="card-text">La banda legendaria "PENDIENTE UNAI CONFIRME ARTISTAS" ha sido
+                            <p class="card-text">La banda legendaria "MEGADETH" ha sido
                                 confirmada para cerrar el festival el domingo.</p>
-                            <a href="#" class="btn btn-sm btn-outline-danger">Leer más</a>
+                            <a href="artistas.html" class="btn btn-sm btn-outline-danger">Leer más</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="card h-100 border-0 shadow-sm">
+                    <div class="card h-100 news-card">
                         <div class="card-body">
-                            <h5 class="card-title">Venta de Tickets VIP Abierta</h5>
+                            <h5 class="card-title text-danger">Venta de Tickets VIP Abierta</h5>
                             <p class="card-text">Asegura tu experiencia premium con acceso exclusivo a zonas backstage y
                                 barra libre.</p>
-                            <a href="#tickets" class="btn btn-sm btn-outline-danger">Comprar VIP</a>
+                            <a href="cuestionario.html" class="btn btn-sm btn-outline-danger">Comprar VIP</a>
                         </div>
                     </div>
                 </div>

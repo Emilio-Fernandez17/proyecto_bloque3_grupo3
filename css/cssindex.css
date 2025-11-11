@@ -37,7 +37,7 @@ nav.navbar .navbar-toggler {
     color: #ff3333;
 }
 
-/* Enlace "INICIO" activo */
+/* Enlace activo */
 .navbar-nav .nav-link.active {
     font-weight: bold;
     color: #ff3333;
