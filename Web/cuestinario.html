@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="../CSS/cuestionario.css" rel="stylesheet">
+    <title>Solicitud de Entradas - Concierto</title>
+</head>
+<body class="cartel">
+    <div class="container ">
+        <div class="header text-center ">
+            <h1>SOLICITUD DE ENTRADAS</h1>
+            <p class="lead">ROCK OUT MAJUELO -1, 2 y 3 de Agosto de 2026</p>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="concert-info">
+                    <h4>Información del Concierto</h4>
+                    <p><strong>Artistas:</strong> Metallica, Pantera y Megadeth</p>
+                    <p><strong>Fechas:</strong> 1, 2 y 3 de Agosto de 2026</p>
+                    <p><strong>Lugar:</strong> Instituto IES Majuelo - Gines - Sevilla</p>
+                    <p><strong>Hora:</strong> 19:00 - 02:00 (Cada día)</p>
+                </div>
+                
+                <div class="form-container">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <!-- Información Personal -->
+                        <h4 class="mb-4">Información Personal</h4>
+                        
+                        <div class="col-md-6">
+                            <label for="inputNombre" class="form-label required">Nombre</label>
+                            <input type="text" class="form-control" id="inputNombre" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa tu nombre.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputApellido" class="form-label required">Apellido</label>
+                            <input type="text" class="form-control" id="inputApellido" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa tu apellido.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputEmail" class="form-label required">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa un email válido.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputTelefono" class="form-label required">Teléfono</label>
+                            <input type="tel" class="form-control" id="inputTelefono" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa tu número de teléfono.
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <label for="inputDireccion" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="inputDireccion" placeholder="Calle y número">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputCiudad" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCiudad">
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <label for="inputProvincia" class="form-label">Provincia</label>
+                            <select id="inputProvincia" class="form-select">
+                                <option selected>Selecciona...</option>
+                                <option>Buenos Aires</option>
+                                <option>Córdoba</option>
+                                <option>Santa Fe</option>
+                                <option>Mendoza</option>
+                                <option>Tucumán</option>
+                                <option>Otra</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-2">
+                            <label for="inputCP" class="form-label">C.P.</label>
+                            <input type="text" class="form-control" id="inputCP">
+                        </div>
+                        
+                        <!-- Información de Entradas -->
+                        <h4 class="mt-5 mb-4">Información de Entradas</h4>
+                        
+                        <div class="col-md-6">
+                            <label for="inputTipoEntrada" class="form-label required">Tipo de Entrada</label>
+                            <select id="inputTipoEntrada" class="form-select" required>
+                                <option value="" selected disabled>Selecciona...</option>
+                                <option>General - $50</option>
+                                <option>VIP - $100</option>
+                                <option>Platinum - $150</option>
+                                <option>Backstage - $200</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Por favor, selecciona un tipo de entrada.
+                            </div>
+                        </div>
+
+                         <div class="col-md-6">
+                            <label for="inputTipoEntrada" class="form-label required">Fecha de Entrada</label>
+                            <select id="inputTipoEntrada" class="form-select" required>
+                                <option value="" selected disabled>Selecciona...</option>
+                                <option>1 de Agosto</option>
+                                <option>2 de Agosto</option>
+                                <option>3 de Agosto</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Por favor, selecciona un tipo de entrada.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputCantidad" class="form-label required">Cantidad</label>
+                            <select id="inputCantidad" class="form-select" required>
+                                <option value="" selected disabled>Selecciona...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Por favor, selecciona la cantidad de entradas.
+                            </div>
+                        </div>
+                        
+                        <!-- Método de Pago -->
+                        <h4 class="mt-5 mb-4">Método de Pago</h4>
+                        
+                        <div class="col-md-6">
+                            <label for="inputMetodoPago" class="form-label required">Método de Pago</label>
+                            <select id="inputMetodoPago" class="form-select" required>
+                                <option value="" selected disabled>Selecciona...</option>
+                                <option>Tarjeta de Crédito</option>
+                                <option>Tarjeta de Débito</option>
+                                <option>Transferencia Bancaria</option>
+                                <option>PayPal</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Por favor, selecciona un método de pago.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <label for="inputTarjeta" class="form-label required">Número de Tarjeta</label>
+                            <input type="text" class="form-control" id="inputTarjeta" placeholder="1234 5678 9012 3456" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa el número de tu tarjeta.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <label for="inputVencimiento" class="form-label required">Fecha de Vencimiento</label>
+                            <input type="text" class="form-control" id="inputVencimiento" placeholder="MM/AA" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa la fecha de vencimiento.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <label for="inputCVV" class="form-label required">CVV</label>
+                            <input type="text" class="form-control" id="inputCVV" placeholder="123" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa el código CVV.
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <label for="inputTitular" class="form-label required">Titular de la Tarjeta</label>
+                            <input type="text" class="form-control" id="inputTitular" required>
+                            <div class="invalid-feedback">
+                                Por favor, ingresa el nombre del titular.
+                            </div>
+                        </div>
+                        
+                        <!-- Términos y Condiciones -->
+                        <div class="col-12 mt-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                <label class="form-check-label" for="gridCheck">
+                                    Acepto los términos y condiciones</a>
+                                </label>
+                                <div class="invalid-feedback">
+                                    Debes aceptar los términos y condiciones para continuar.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">Solicitar Entradas</button>
+                            <button type="reset" class="btn btn-outline-dark  ms-2">Limpiar Formulario</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="JavaScript/validacion.js"></script>
+</body>
+</html>
